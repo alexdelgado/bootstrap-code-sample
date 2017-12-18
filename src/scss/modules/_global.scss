@@ -1,0 +1,18 @@
+body {
+    font-size: 16px;
+    padding-top: 5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+@keyframes spin {
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.spin {
+    animation: spin 4s linear infinite;
+}
